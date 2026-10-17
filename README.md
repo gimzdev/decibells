@@ -6,16 +6,18 @@ Distributed verification network with token incentives.
 
 [Docs](https://docs.decibells.network) · Node.js · IPFS · GraphQL
 
-</div>
 
-
-Several validators agree on what a piece of data says, and the agreement can be proven afterwards.
+Decibells is a general-purpose verification network. When a piece of data matters, several validators
+check it and agree on what it says, and the agreement can be proven afterwards. Validators are paid in
+tokens for honest work and lose stake when they are wrong.
 
 | | |
-|---|---|
+|:---|:---|
 | **Network** | libp2p with Byzantine fault tolerance |
-| **Records** | IPFS, with the rules in smart contracts |
-| **Incentives** | Validators earn tokens for audits and lose stake when wrong |
+| **Records** | Kept on IPFS, the rules in smart contracts |
+| **Incentives** | Tokens for audits, stake lost for wrong answers |
 | **Uses** | Supply chains, documents, voting, research data |
 
-`Submit → Validate → Consensus → Record → Reward`
+The flow is Submit, Validate, Consensus, Record, Reward.
+
+</div>
